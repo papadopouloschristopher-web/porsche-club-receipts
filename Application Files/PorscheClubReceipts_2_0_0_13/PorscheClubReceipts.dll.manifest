@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PorscheClubReceipts.exe" version="2.0.0.13" publicKeyToken="15ae3b6f14000438" language="el" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="porsche_logo_icon_145784.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17816">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0EHCQUrtWmzOjbYXjNAdXlzOoL+PnyxRx7UycW9kJGE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Assets\Logol.png" size="39289">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TLqVlFklRSv8upfOrQZIjd+zkG0FkzBwOEJfjBOwt3w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Logor.png" size="29259">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2FFdqDxV/kNUBngv2gAdEZf+btnbuBufkdpB2teJMeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\README.txt" size="460">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YzBL+ZrDD/u5Lejf3Me8+L6jGYEZpv5mOyMNVQNeA+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\signature.png" size="7082">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VR4zmkvzaY564PxPCgugXEWPxk5iZnHwGvJyYddUuHE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Data.Sqlite.dll" size="178528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GAiJdZROv4IiXkWEmRc2vmjCuUHsGadI191l34mHKjs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PorscheClubReceipts.deps.json" size="4999">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GXMgqeLHGwX8FH5KOer5+bPP8FpSo/D6vKzB89GbV14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PorscheClubReceipts.dll" size="211352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dwlux7NSX8udCq5bv+2GZfQtHK6Df3Rulvvfcj6eMRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PorscheClubReceipts.exe" size="231320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9HbykAB5B54X5bIitmB/959eBF2PSlw58PZyE/D8vNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PorscheClubReceipts.runtimeconfig.json" size="519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lrwpRt/4eQQA1lLsf43nuwQ+lUmA1ZRwwRJ4i2ih+9M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQLitePCLRaw.batteries_v2.dll" size="5632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HuPG/005FxaQ1v9vhLTYdu0DjKKOObtudJlfUtKqz4s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQLitePCLRaw.core.dll" size="51712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tyyd/hR5pWjWuE4knq+UnnbHV4iPgFb7bducBIDg3SU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQLitePCLRaw.provider.e_sqlite3.dll" size="37376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bWy5DeZDxrSxX5c9HjBPfdkei/BTw1AT5OoJXYW1NlU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="club.json" size="1910">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/F1liB9L9dTCCsJ4v1C6hevMyyBRAcE2mkb1JI+KfI4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="e_sqlite3.dll" size="1972224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>atjhSfjOPtNxZAK0s6Imjrvce2Q5G1+v7XR+A7sblBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="porsche_logo_icon_145784.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7iVoesHMIWiyn4pLzUVJY4mjFRct4bK6q/kfIJAcheg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Christopher Papadopoulos" issuerKeyHash="0b2c388c078e5b7a47c30b25d58eafd559399230" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>s0evktJEMDy70/mWMKneNoaxBjG80JDFatmTr3et4PI=</DigestValue></Reference></SignedInfo><SignatureValue>ke7PogGkLHKYKEsL4qleiQLSTN2FTWKrtybEPrEYq02QeCu4GYIybL8QUAX+mRZcrNjjM2cL+9RJIsYMX1dOo2HeZQV7iHarqHwhsdoohBtXGGhIjau+HO9/De9b8yqAdWv6nItLFn5WbhOdAQObk/ajj4BVxgLp2GNZ3sbXSB6pbXYAaAkyHaOwdRGd5LdGzkPcb0iswl41B0qvo5x2EZ6fs8q8wlowAbRVwUoNqR6HcEDVs5g7Oe/HQ5IRdiVrW3tGrZa5t7xSAvQNJ0DCZa58ebZjh+PNfF4Cg/TouTAH7GtgQ5M0HOszqKcZdlZ7uq4ax+RHgJw499Jp1eC16Q==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wtc61g/VOurPfVGFD1RI7/Kk6JXAEwmaRD1gRp0p6J/635ba56cJcpbKagGk5/jSDhjDtWZ+tBAA34hpaO66HRYXCf1WW83s8jr5jVq2YYfC4HZiJtXzXb6V8XG9nhIcljaqMIOfBnYmcXF3EYobiEZJkAmnTeHQvYLI3QIEiWllcq9F1fbT5qBsLY0wTLqMTdgGwGiTpqmplO8OLvVQCyTHLWVmsiZkFHkah1yNupHlQyiy/zHTpkDfP8HEKEcJsGNJRj+gmyJHhSww79YuZ9XNiO7TZ7+I0RAoTd6FI/Z9TMy/b/VhuKEhtWB9XxbkzuKYVRMW1JUiqJ4ks9naYQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f2e0ad77af93d96ac590d0bc3106b18636dea93096f9d3bb3c3044d292af47b3" Description="" Url=""><as:assemblyIdentity name="PorscheClubReceipts.exe" version="2.0.0.13" publicKeyToken="15ae3b6f14000438" language="el" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Christopher Papadopoulos</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yhRk1Rpp7vWlu4gYHmap8RQUl5I/dObqeXkOK7Y92NA=</DigestValue></Reference></SignedInfo><SignatureValue>TC+fTcX+GrA4RJlRuj8aDi42FpCwPDDZDWbpbYY2M2i8BVvrJlL/gtAXMnUDN3aU1f1KNoRYsX7HzUlHUoAD07QHXBFVpLW138AdAOE52I+Evh8Jnn4B5xrmSCoLulqWOKWig2AwAP9dNz0241AYvVIKRD24b8VJM3yPXZicfhMRI/obxzD4i2kDIcItWH2uEPSepmoaWtcPWqIyJjEvhEnYFD5UgkOYj6Go5TtpZ9Z8x0lcOZA6IRs1ANH2abkGqyRKd/78obuQ3zpnk4DGOsLhdrvM66L8+k6go1/2QV9mDVoGhlKZjH1I8l3AnVu/eCToERddNYmvn5h7n70hdg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wtc61g/VOurPfVGFD1RI7/Kk6JXAEwmaRD1gRp0p6J/635ba56cJcpbKagGk5/jSDhjDtWZ+tBAA34hpaO66HRYXCf1WW83s8jr5jVq2YYfC4HZiJtXzXb6V8XG9nhIcljaqMIOfBnYmcXF3EYobiEZJkAmnTeHQvYLI3QIEiWllcq9F1fbT5qBsLY0wTLqMTdgGwGiTpqmplO8OLvVQCyTHLWVmsiZkFHkah1yNupHlQyiy/zHTpkDfP8HEKEcJsGNJRj+gmyJHhSww79YuZ9XNiO7TZ7+I0RAoTd6FI/Z9TMy/b/VhuKEhtWB9XxbkzuKYVRMW1JUiqJ4ks9naYQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDFjCCAf6gAwIBAgIQWegom63x7aZG56sqTxhORTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDDBhDaHJpc3RvcGhlciBQYXBhZG9wb3Vsb3MwHhcNMjYxMTIyMjMxMTQ5WhcNMjcxMTIyMjMzMTQ5WjAjMSEwHwYDVQQDDBhDaHJpc3RvcGhlciBQYXBhZG9wb3Vsb3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDC1zrWD9U66s99UYUPVEjv8qTolcATCZpEPWBGnSnon/rfltrnpwlylspqAaTn+NIOGMO1Zn60EADfiGlo7rodFhcJ/VZbzezyOvmNWrZhh8LgdmIm1fNdvpXxcb2eEhyWNqowg58GdiZxcXcRihuIRkmQCadN4dC9gsjdAgSJaWVyr0XV9tPmoGwtjTBMuoxN2AbAaJOmqamU7w4u9VALJMctZWayJmQUeRqHXI26keVDKLL/MdOmQN8/wcQoRwmwY0lGP6CbIkeFLDDv1i5n1c2I7tNnv4jREChN3oUj9n1MzL9v9WG4oSG1YH1fFuTO4phVExbUlSKoniSz2dphAgMBAAGjRjBEMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUCyw4jAeOW3pHwwsl1Y6v1Vk5kjAwDQYJKoZIhvcNAQELBQADggEBAAwgg0IItBjrzQ3j6LFNvO+L7suE2IymFT5VweILlauZz7ypl1TYS9G+RHQ2upXzmPf9oNV6KlUx5OkgfhaJlYlBI4wbqU4nzL+W+x16P3RR6DNRE3Os50H1k7xdhpL7xBPrxN1KyIfR6rk937EYtWOYdCQHQzgau6eMG9aRQqiRx9pQ+zPwmi2rzGYnt+W8Wd7vJW88CxpSAze28ByVcgYi/T7xEN5wLJOD2mqqr1PSQziVGZFWL54QWLzuAxQbNrJD97Axmoq9BP822YTBDPfuY5e3VakdiCMojD+atPqCpMLWxz2xfegacX3A1iIojxej6/VUhtPBz0QU07pHcX4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
